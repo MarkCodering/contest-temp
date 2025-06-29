@@ -1,7 +1,0 @@
-{
-  "scripts": {
-    "postinstall": "git lfs install && git lfs pull",
-    "build": "npm run next-build",
-    "next-build": "next build"
-  }
-}
