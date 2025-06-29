@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {},
+    "commands": {
+      "build": "git lfs install && git lfs pull && npm run build"
+    }
+  }
+}
