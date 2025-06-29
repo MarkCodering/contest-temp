@@ -1,8 +1,7 @@
 {
-  "build": {
-    "env": {},
-    "commands": {
-      "build": "git lfs install && git lfs pull && npm run build"
-    }
+  "scripts": {
+    "postinstall": "git lfs install && git lfs pull",
+    "build": "npm run next-build",
+    "next-build": "next build"
   }
 }
